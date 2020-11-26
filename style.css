@@ -1,0 +1,134 @@
+    
+  
+  body {
+    margin: 0;
+    padding: 0 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #36413a;
+  }
+  
+  .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  
+  header {
+    text-align: center;
+    background: url(https://b.kisscc0.com/20180517/tq/kisscc0-green-desktop-wallpaper-leaf-darkness-light-design-5afd719dd0b736.3539226615265591338549.jpg) no-repeat center center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    margin: 0 20px;
+    border-radius: 2%;
+  }
+
+  header {
+    line-height: 1.5;
+  }
+  header .profile-image {
+    margin-top: 50px;
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px solid white;
+  }
+  header .profile-image:hover {
+    transform: scale(1.2);
+    border: none;
+  }
+  .tag {
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 50px auto;
+  } 
+
+  .background-goals{
+      Display: flex;
+      justify-content: center;
+  }
+
+  .card:hover {
+    background: rgb(21,80,29);
+    background: linear-gradient(180deg, rgba(21,80,29,0.7721463585434174) 0%, rgba(92,144,100,0.46122198879551823) 100%);
+    color: white;
+  }
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+  .card:hover {
+    border-color: #53d6c5;
+  }
+  
+  ul.skills {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #835c22;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .skills li:nth-child(odd) {
+    background: #04311c;
+  }
+  
+  footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 0px;
+    Display: flex;
+    justify-content: center;
+
+  }
+
+  .social-links {
+      display: flex;
+      justify-content: center;
+  }
+  
+  a {
+    color: rgb(61, 61, 61);
+    margin: 20px;
+    font-size: 40px;
+  }
+  a:hover {
+    color: #d1cfd6;
+  }
