@@ -132,3 +132,10 @@
   a:hover {
     color: #d1cfd6;
   }
+
+@media screen and (max-width: 768px) {
+
+    .background-goals{
+        flex-direction: column;
+    }
+}
